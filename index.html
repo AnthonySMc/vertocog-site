@@ -27,16 +27,17 @@ main {
 .logo {
   max-width: 640px;
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 6px;
 }
 
 h1 {
   color: #19a7ff;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
-  line-height: 1.35;
-  margin: 0 0 36px;
+  letter-spacing: 0.025em;
+  line-height: 1.25;
+  margin: 0 0 34px;
+  white-space: nowrap;
 }
 
 p {
@@ -46,32 +47,13 @@ p {
   margin: 0 auto 26px;
 }
 
+p.primary {
+  color: #e3e8ef;
+}
+
 .status {
   color: #9aa4af;
   margin-top: 44px;
-}
-
-@media (max-width: 600px) {
-  main {
-    padding: 36px 24px 42px;
-  }
-
-  .logo {
-    width: 108%;
-    max-width: 108%;
-    margin-left: -4%;
-    margin-bottom: 14px;
-  }
-
-  h1 {
-    font-size: 1.55rem;
-    margin-bottom: 34px;
-  }
-
-  p {
-    font-size: 1.12rem;
-    line-height: 1.75;
-  }
 }
 </style>
 </head>
@@ -82,9 +64,9 @@ p {
 
   <h1>Enhancement Over Engagement</h1>
 
-  <p>
+  <p class="primary">
     Our guiding principle is cognitive fidelity: preserving and strengthening
-    the ability to think, remember, communicate, and make decisions while using
+    our ability to think, remember, communicate, and make decisions while using
     intelligent tools.
   </p>
 
@@ -94,7 +76,7 @@ p {
   </p>
 
   <p class="status">
-    VertoCog is currently under development.
+    VertoCog is currently under development
   </p>
 </main>
 </body>
